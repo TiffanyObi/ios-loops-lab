@@ -14,15 +14,46 @@
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
 
+///Answer:
+
+for num in 1...150 {
+    
+if num < 150 {
+    print(num, terminator: ",")
+} else {
+    print(num, terminator: " ")
+}
+}
+
 ***
 ## Question 2
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
+////Answer:
+
+for num in 142..<159 {
+    if num < 158 {
+print(num, terminator: ",")
+} else {
+    print(num, terminator: " ")
+}
+}
 
 ***
 ## Question 3
 
 Write code that prints only the even numbers from 15 to 80, **inclusive.**
+////Answer:
+
+for num in 15...80 {
+    if num % 2 == 1 {
+        continue }
+    if num < 80 {
+            print(num,terminator:",")
+        }else{
+    print(num, terminator: " ")
+}
+}
 
 ***
 ## Question 4
