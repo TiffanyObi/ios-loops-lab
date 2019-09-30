@@ -161,7 +161,17 @@ for num in 20...150 {
 Given a range of numbers from 20 to 150, print out all the numbers that follows these conditions:
 
 `Print out numbers: 31, 35, 40 to 60.`
-
+for num in 20...150 {
+    if num == 31 {
+        print(num)
+    } else if num == 35 {
+        print(num)
+    }else if num >= 40 && num <= 59 {
+        print(num, terminator: ",")
+    } else if num == 60 {
+        print(num, terminator:" ")
+    }
+}
 ***
 ## Question 11
 
