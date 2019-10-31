@@ -186,6 +186,7 @@ while (i > 3) {
 
 // Your explanation here
 ```
+the code will run infinitely because 'i' is already greater than three and the code say that if 'i' is greater than 3 , increment the int by 1. 
 
 ***
 ## Question 12
@@ -195,7 +196,8 @@ Change the code below to make the loop stop executing when i reaches 9.
 ```swift
 var i = 5
 
-while (i > 3) {
+Answer:
+while (i < 9) {
     i += 1
 }
 ```
@@ -208,7 +210,8 @@ Change the code below to make the loop stop executing after it has run 1,000 tim
 ```swift
 var i = 5
 
-while (i > 3) {
+Answer:
+while i < 1005 {
     i += 1
 }
 ```
@@ -221,8 +224,11 @@ Change the code below to make the loop stop executing after it has run 1,000 tim
 ```swift
 var i = 5
 
-while (i > 3) {
+while i < 1005 {
     i += 1
+}
+if i % 2 == 0 {
+print("\(i)")
 }
 ```
 
@@ -246,6 +252,10 @@ repeat {
     print("i = \(i)")
     i += 1
 } while i <= 10
+
+
+Answer: 
+The difference in syntax is that the repeat while statement would try to execute code before reading the condtion as oppose to the while statement that excecutes code dependant on the condition statement first. 
 ```
 
 # Bonus =)
